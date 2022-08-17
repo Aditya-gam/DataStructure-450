@@ -1,7 +1,7 @@
 # Data Structures and Algotrithm 
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-0/449-1f425f.svg)
-![Array](https://img.shields.io/badge/Array-0/36-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-2/449-1f425f.svg)
+![Array](https://img.shields.io/badge/Array-2/36-1abc9c.svg)
 ![Matrix](https://img.shields.io/badge/Matrix-0/10-1abc9c.svg)
 ![String](https://img.shields.io/badge/String-0/42-1abc9c.svg)
 ![Searching & Sorting](https://img.shields.io/badge/Searching%20&%20Sorting-0/36-1abc9c.svg)
@@ -38,12 +38,12 @@
 [Bit Manipulation](#Bit-Manipulation-) |
 
 
-### Arrays ![Array](https://img.shields.io/badge/Array-22/36-1abc9c.svg)
+### Arrays ![Array](https://img.shields.io/badge/Array-2/36-1abc9c.svg)
 
 | Sr. No | Problem | Difficulty Level | Solution Link |
 |--------|---------|------------------|:-------------:|
-| 01. |[Reverse An Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
-| 02. |[Max and Min Element](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
+| 01. |[Reverse An Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Reverse_The_Array.py) |
+| 02. |[Max and Min Element](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Min_And_Max_in_Array.py) |
 | 03. |[Kth Samllest Element](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 04. |[Sorting 0, 1, 2 Array](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 05. |[Seperating Negative Elements](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
