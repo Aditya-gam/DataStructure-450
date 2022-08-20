@@ -1,7 +1,7 @@
 # Data Structures and Algotrithm 
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-3/449-1f425f.svg)
-![Array](https://img.shields.io/badge/Array-3/36-1abc9c.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-8/449-1f425f.svg)
+![Array](https://img.shields.io/badge/Array-8/36-1abc9c.svg)
 ![Matrix](https://img.shields.io/badge/Matrix-0/10-1abc9c.svg)
 ![String](https://img.shields.io/badge/String-0/42-1abc9c.svg)
 ![Searching & Sorting](https://img.shields.io/badge/Searching%20&%20Sorting-0/36-1abc9c.svg)
@@ -38,18 +38,18 @@
 [Bit Manipulation](#Bit-Manipulation-) |
 
 
-### Arrays ![Array](https://img.shields.io/badge/Array-3/36-1abc9c.svg)
+### Arrays ![Array](https://img.shields.io/badge/Array-8/36-1abc9c.svg)
 
 | Sr. No | Problem | Difficulty Level | Solution Link |
 |--------|---------|------------------|:-------------:|
 | 01. |[Reverse An Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Reverse_The_Array.py) |
 | 02. |[Max and Min Element](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Min_And_Max_in_Array.py) |
 | 03. |[Kth Samllest Element](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Kth_Smallest_Element.py) |
-| 04. |[Sorting 0, 1, 2 Array](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
-| 05. |[Seperating Negative Elements](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
-| 06. |[Union And Intersection Of Arrays](https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
-| 07. |[Rotate An Array](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
-| 08. |[Largest Sum Contiguous Subarray](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
+| 04. |[Sorting 0, 1, 2 Array](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Sort_Array_123.py) |
+| 05. |[Seperating Negative Elements](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Move_Negative_Numbers_to_Start_of_Array.py) |
+| 06. |[Union And Intersection Of Arrays](https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Union_Intersection_Array.py) |
+| 07. |[Rotate An Array](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Cyclically_Rotate_Array.py) |
+| 08. |[Largest Sum Contiguous Subarray](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Kadane's_Algorithm.py) |
 | 09. |[Minimise the Maximum Difference Between Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 10. |[Min Jumps To Reach End Of Array](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 11. |[Find Duplicate In An Array](https://leetcode.com/problems/find-the-duplicate-number/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
