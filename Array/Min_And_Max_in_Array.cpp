@@ -1,93 +1,93 @@
 /*################## Linear Search Method   ##################*/
 /*################## Time Complexity: O(n) ##################*/
 /*################## Space Complexity: O(1) ##################*/
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-// using namespace std;
+using namespace std;
 
-// struct Pair
-// {
-//     int min;
-//     int max;
-// };
+struct Pair
+{
+    int min;
+    int max;
+};
 
-// vector<int> getArray()
-// {
-//     int n;
-//     cout << "Enter size of array: ";
-//     cin >> n;
-//     vector<int> arr(n);
-//     cout << "Enter the array:";
-//     for (int i = 0; i < n; i++)
-//     {
-//         cin >> arr[i];
-//     }
+vector<int> getArray()
+{
+    int n;
+    cout << "Enter size of array: ";
+    cin >> n;
+    vector<int> arr(n);
+    cout << "Enter the array:";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
 
-//     return arr;
-// }
+    return arr;
+}
 
-// void printArray(vector<int> arr, int size)
-// {
-//     for (int i = 0; i < size; i++)
-//     {
-//         cout << arr[i] << " ";
-//     }
+void printArray(vector<int> arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
 
-//     cout << endl;
-// }
+    cout << endl;
+}
 
-// Pair getMinMax(vector<int> arr, int n)
-// {
-//     struct Pair minmax;
-//     int i;
+Pair getMinMax(vector<int> arr, int n)
+{
+    struct Pair minmax;
+    int i;
 
-//     if (n == 1)
-//     {
-//         minmax.max = arr[0];
-//         minmax.min = arr[0];
-//         return minmax;
-//     }
+    if (n == 1)
+    {
+        minmax.max = arr[0];
+        minmax.min = arr[0];
+        return minmax;
+    }
 
-//     if (arr[0] > arr[1])
-//     {
-//         minmax.max = arr[0];
-//         minmax.min = arr[1];
-//     }
-//     else
-//     {
-//         minmax.max = arr[1];
-//         minmax.min = arr[0];
-//     }
+    if (arr[0] > arr[1])
+    {
+        minmax.max = arr[0];
+        minmax.min = arr[1];
+    }
+    else
+    {
+        minmax.max = arr[1];
+        minmax.min = arr[0];
+    }
 
-//     for (i = 2; i < n; i++)
-//     {
-//         if (arr[i] > minmax.max)
-//         {
-//             minmax.max = arr[i];
-//         }
-//         else if (arr[i] < minmax.min)
-//         {
-//             minmax.min = arr[i];
-//         }
-//     }
-//     return minmax;
-// }
+    for (i = 2; i < n; i++)
+    {
+        if (arr[i] > minmax.max)
+        {
+            minmax.max = arr[i];
+        }
+        else if (arr[i] < minmax.min)
+        {
+            minmax.min = arr[i];
+        }
+    }
+    return minmax;
+}
 
-// int main()
-// {
-//     vector<int> arr;
-//     arr = getArray();
+int main()
+{
+    vector<int> arr;
+    arr = getArray();
 
-//     cout << "Original array: " << endl;
-//     printArray(arr, arr.size());
+    cout << "Original array: " << endl;
+    printArray(arr, arr.size());
 
-//     struct Pair minmax = getMinMax(arr, arr.size());
+    struct Pair minmax = getMinMax(arr, arr.size());
 
-//     cout << "Minimum element is " << minmax.min << endl;
-//     cout << "Maximum element is " << minmax.max;
+    cout << "Minimum element is " << minmax.min << endl;
+    cout << "Maximum element is " << minmax.max;
 
-//     return 0;
-// }
+    return 0;
+}
 
 /*################## Binary Search Method   ##################*/
 /*################## Time Complexity: O(n) ##################*/
@@ -188,6 +188,115 @@ int main()
     printArray(arr, arr.size());
 
     struct Pair minmax = getMinMax(arr, 0, arr.size() - 1);
+
+    cout << "Minimum element is " << minmax.min << endl;
+    cout << "Maximum element is " << minmax.max;
+
+    return 0;
+}
+
+/*################## Compare in Pairs Method   ##################*/
+/*################## Time Complexity: O(n) ##################*/
+/*################## Space Complexity: O(1) ##################*/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+struct Pair
+{
+    int min;
+    int max;
+};
+
+vector<int> getArray()
+{
+    int n;
+    cout << "Enter size of array: ";
+    cin >> n;
+    vector<int> arr(n);
+    cout << "Enter the array:";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    return arr;
+}
+
+void printArray(vector<int> arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << endl;
+}
+
+struct Pair getMinMax(vector<int> arr, int n)
+{
+    struct Pair minmax;
+    int i;
+
+    if (n % 2 == 0)
+    {
+        if (arr[0] > arr[1])
+        {
+            minmax.max = arr[0];
+            minmax.min = arr[1];
+        }
+        else
+        {
+            minmax.min = arr[0];
+            minmax.max = arr[1];
+        }
+        i = 2;
+    }
+    else
+    {
+        minmax.max = arr[0];
+        minmax.min = arr[0];
+        i = 1;
+    }
+
+    while (i < n - 1)
+    {
+        if (arr[i] > arr[i + 1])
+        {
+            if (arr[i] > minmax.max)
+            {
+                minmax.max = arr[i];
+            }
+            if (arr[i + 1] < minmax.min)
+            {
+                minmax.min = arr[i + 1];
+            }
+        }
+        else
+        {
+            if (arr[i + 1] > minmax.max)
+            {
+                minmax.max = arr[i + 1];
+            }
+            if (arr[i] < minmax.min)
+            {
+                minmax.min = arr[i];
+            }
+        }
+        i += 2;
+    }
+    return minmax;
+}
+
+int main()
+{
+    vector<int> arr;
+    arr = getArray();
+
+    cout << "Original array: " << endl;
+    printArray(arr, arr.size());
+
+    Pair minmax = getMinMax(arr, arr.size());
 
     cout << "Minimum element is " << minmax.min << endl;
     cout << "Maximum element is " << minmax.max;
