@@ -1,0 +1,2 @@
+Reverse The Array:                                  6 1 2 3 4 5 6
+Min And Max in Array:                               6 1000 11 445 1 330 3000
