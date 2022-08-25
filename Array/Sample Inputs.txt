@@ -1,2 +1,6 @@
 Reverse The Array:                                  6 1 2 3 4 5 6
 Min And Max in Array:                               6 1000 11 445 1 330 3000
+Kth Smallest Element:                               6 7 10 4 3 20 15
+Sort Array 012:                                     5 0 2 1 2 0
+Move Negative Number to start of Array:             9 -1 2 -3 4 5 6 -7 8 9
+Union and Intersection:                             6 85 25 1 32 54 6 2 85 2
