@@ -84,5 +84,6 @@
         "**/.DS_Store": true,
         "**/*.exe" : true
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "editor.acceptSuggestionOnEnter": "on"
 }
