@@ -42,7 +42,7 @@
 
 | Sr. No | Problem | Difficulty Level | Solution Link |
 |--------|---------|------------------|:-------------:|
-| 01. |[Reverse An Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Reverse_The_Array.py) |
+| 01. |[Reverse An Array](https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/)| Easy | [![Python](https://img.icons8.com/fluency/35/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Reverse_The_Array.py) [![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Reverse_Array.cpp)|
 | 02. |[Max and Min Element](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Min_And_Max_in_Array.py) |
 | 03. |[Kth Samllest Element](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Kth_Smallest_Element.py) |
 | 04. |[Sorting 0, 1, 2 Array](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)| Easy | [![Python](https://img.icons8.com/fluency/44/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Sort_Array_123.py) |
