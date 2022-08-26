@@ -1,6 +1,6 @@
 # Data Structures and Algotrithm 
 
-![problems-solved](https://img.shields.io/badge/Problems%20Solved-8/449-1f425f.svg)
+![problems-solved](https://img.shields.io/badge/Problems%20Solved-9/449-1f425f.svg)
 ![Array](https://img.shields.io/badge/Array-9/36-1abc9c.svg)
 ![Matrix](https://img.shields.io/badge/Matrix-0/10-1abc9c.svg)
 ![String](https://img.shields.io/badge/String-0/42-1abc9c.svg)
