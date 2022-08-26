@@ -1,7 +1,7 @@
 # Data Structures and Algotrithm 
 
 ![problems-solved](https://img.shields.io/badge/Problems%20Solved-8/449-1f425f.svg)
-![Array](https://img.shields.io/badge/Array-8/36-1abc9c.svg)
+![Array](https://img.shields.io/badge/Array-9/36-1abc9c.svg)
 ![Matrix](https://img.shields.io/badge/Matrix-0/10-1abc9c.svg)
 ![String](https://img.shields.io/badge/String-0/42-1abc9c.svg)
 ![Searching & Sorting](https://img.shields.io/badge/Searching%20&%20Sorting-0/36-1abc9c.svg)
@@ -38,7 +38,7 @@
 [Bit Manipulation](#Bit-Manipulation-) |
 
 
-### Arrays ![Array](https://img.shields.io/badge/Array-8/36-1abc9c.svg)
+### Arrays ![Array](https://img.shields.io/badge/Array-9/36-1abc9c.svg)
 
 | Sr. No | Problem | Difficulty Level | Solution Link |
 |--------|---------|------------------|:-------------:|
@@ -50,7 +50,7 @@
 | 06. |[Union And Intersection Of Arrays](https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0)| Easy | [![Python](https://img.icons8.com/fluency/35/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Union_Intersection_Array.py) [![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Union_Intersection_Array.cpp) |
 | 07. |[Rotate An Array](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0)| Easy | [![Python](https://img.icons8.com/fluency/35/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Cyclically_Rotate_Array.py) [![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Cyclically_Rotate_Array.cpp) |
 | 08. |[Largest Sum Contiguous Subarray](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1)| Medium | [![Python](https://img.icons8.com/fluency/35/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Kadane's_Algorithm.py) [![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Kadane's_Algorithm.cpp) |
-| 09. |[Minimise the Maximum Difference Between Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
+| 09. |[Minimise the Maximum Difference Between Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1)| Medium | [![Python](https://img.icons8.com/fluency/35/python.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Minimise_the_Heights_II.py) [![C++](https://img.icons8.com/color/35/000000/c-plus-plus-logo.png)](https://github.com/Aditya-gam/DataStructure-450/blob/master/Array/Minimise_the_Heights_II.cpp) |
 | 10. |[Min Jumps To Reach End Of Array](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 11. |[Find Duplicate In An Array](https://leetcode.com/problems/find-the-duplicate-number/)| Medium | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
 | 12. |[Merge 2 Sorted Arrays Without Using Extra Space](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1)| Hard | [![Python](https://img.icons8.com/fluency/44/python.png)]() |
